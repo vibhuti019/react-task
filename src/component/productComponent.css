@@ -1,0 +1,44 @@
+.item{
+    font-size:12px;
+    width:100%;
+    align-content:center;
+    padding:9px;
+}
+.price{
+    background-color:blue; 
+    border-radius:5px;
+}
+.sub{
+    background-color:red; 
+    border-radius: 5px 0 0 5px;
+}
+.quantity{
+    background-color:yellow; 
+}
+.add{
+    background-color:green; 
+    border-radius: 0 5px 5px 0;
+}
+.remove{
+    background-color:red; 
+    font-size: 18px;
+    border-radius:5px;
+}
+.inline{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.inline div{
+    margin-left: 5vw;
+    width: auto;
+}
+.name{
+    margin-left: 0 !important;
+    width: 20vw !important;
+} 
+.block{
+    margin-left: 0 !important;
+    width: 14vw !important;
+    text-align: center;
+} 
